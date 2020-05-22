@@ -27,14 +27,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/product/lib/vendor.qti.hardware.fm@1.0.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/product/lib64/vendor.qti.hardware.fm@1.0.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	prefer: true,
 	product_specific: true,
 }
@@ -106,18 +103,6 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-}
-
-dex_import {
-	name: "QPerformance",
-	owner: "lenovo",
-	jars: ["proprietary/framework/QPerformance.jar"],
-}
-
-dex_import {
-	name: "UxPerformance",
-	owner: "lenovo",
-	jars: ["proprietary/framework/UxPerformance.jar"],
 }
 
 dex_import {
