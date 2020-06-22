@@ -190,6 +190,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kunlun2/proprietary/product/lib64/libdiag_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdiag_system.so \
     vendor/lenovo/kunlun2/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
     vendor/lenovo/kunlun2/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
+    vendor/lenovo/kunlun2/proprietary/product/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsdm-disp-apis.qti.so \
+    vendor/lenovo/kunlun2/proprietary/product/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.0.so \
     vendor/lenovo/kunlun2/proprietary/product/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.0.so \
     vendor/lenovo/kunlun2/proprietary/product/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.1.so \
     vendor/lenovo/kunlun2/proprietary/product/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.2.so \
