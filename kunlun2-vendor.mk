@@ -163,7 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kunlun2/proprietary/product/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephonyservice.xml \
     vendor/lenovo/kunlun2/proprietary/product/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/QtiTelephonyServicelibrary.jar \
     vendor/lenovo/kunlun2/proprietary/product/framework/qcrilhook.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qcrilhook.jar \
-    vendor/lenovo/kunlun2/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/lenovo/kunlun2/proprietary/product/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.0.so \
     vendor/lenovo/kunlun2/proprietary/product/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.1.so \
     vendor/lenovo/kunlun2/proprietary/product/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.2.so \
